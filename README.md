@@ -37,6 +37,3 @@ Proyecto Dron/
 └── Esquematico_PDB/        # Esquemas de la placa de distribución de energía (Power Distribution Board)
 ```
 
-## Notas
-
-Este proyecto es parte del curso de Control Clásico. Se han organizado los códigos en carpetas separadas para distinguir entre el código del ESP32 y el código de la PC.
