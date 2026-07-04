@@ -37,3 +37,7 @@ desktop.ini
 
 # Directorios de dependencias
 node_modules/
+
+# Archivos multimedia ignorados explícitamente
+*.mp4
+Captura de pantalla 2025-11-23 133624.png

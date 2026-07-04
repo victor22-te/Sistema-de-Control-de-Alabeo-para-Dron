@@ -1,5 +1,8 @@
 # Proyecto Dron - Control Clásico (Alabeo)
 
+![Prueba de Alabeo](layout/video-prueba-alabeo.gif)
+![Interfaz de Control](layout/imagen-prueba-interfaz.jpeg)
+
 Este proyecto contiene el código para el control de un dron utilizando ESP32 y sensores MPU6050.
 
 ## Archivos Principales
