@@ -1,5 +1,7 @@
 # Proyecto Dron - Control Clásico (Alabeo)
 
+**Tecnologías / Topics:** `esp32` · `micropython` · `mpu6050` · `pid-control` · `python` · `matplotlib` · `drones`
+
 ![Prueba de Alabeo](layout/video-prueba-alabeo.gif)
 ![Interfaz de Control](layout/imagen-prueba-interfaz.jpeg)
 
