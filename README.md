@@ -1,6 +1,18 @@
 # Proyecto Dron - Control Clásico (Alabeo)
 
-**Tecnologías / Topics:** `esp32` · `micropython` · `mpu6050` · `pid-control` · `python` · `matplotlib` · `drones`
+<div align="center">
+  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" alt="Status" />
+  <img src="https://img.shields.io/badge/Platform-ESP32%20%7C%20Python-blue?style=for-the-badge" alt="Platform" />
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License" />
+  <br/><br/>
+  <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white" alt="ESP32" />
+  <img src="https://img.shields.io/badge/MicroPython-2B2E33?style=flat-square&logo=python&logoColor=white" alt="MicroPython" />
+  <img src="https://img.shields.io/badge/MPU6050%20Sensor-F39C12?style=flat-square" alt="MPU6050" />
+  <img src="https://img.shields.io/badge/PID%20Control-27AE60?style=flat-square" alt="PID" />
+  <img src="https://img.shields.io/badge/Python%20GUI-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=python&logoColor=white" alt="Matplotlib" />
+  <img src="https://img.shields.io/badge/WiFi%20Telemetry-8E44AD?style=flat-square&logo=wifi&logoColor=white" alt="WiFi" />
+</div>
 
 ![Prueba de Alabeo](layout/video-prueba-alabeo.gif)
 ![Interfaz de Control](layout/imagen-prueba-interfaz.jpeg)
