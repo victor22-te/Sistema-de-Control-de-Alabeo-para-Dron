@@ -1,36 +1,42 @@
-# Proyecto Dron - Control Clásico
+# Proyecto Dron - Control Clásico (Alabeo)
 
 Este proyecto contiene el código para el control de un dron utilizando ESP32 y sensores MPU6050.
 
 ## Archivos Principales
 
-### Interfaz_Dron/
-- **esp_2motores.py**: Script para el ESP32 que controla 2 motores del dron
-- **Interfaz_Control_2motores.py**: Interfaz de control para monitorear y controlar el dron con 2 motores
+### Codigo_ESP32/
+- **esp_2motores.py**: Script (MicroPython) para el ESP32 que controla 2 motores del dron.
+
+### Interfaz_PC/
+- **Interfaz_Control_2motores.py**: Interfaz de control para la PC con gráficos para monitorear y controlar el dron de 2 motores.
+- **ControlDRONE_4motores.py**: Interfaz de control avanzada para la PC que permite monitorear y controlar un dron completo de 4 motores.
 
 ## Requisitos
 
 - Python 3.x
 - ESP32
 - Sensor MPU6050
-- Bibliotecas Python necesarias (ver requirements.txt si está disponible)
+- Bibliotecas Python necesarias en la PC: `matplotlib`, `numpy` (Instalables vía `pip install matplotlib numpy`)
 
 ## Uso
 
-1. Cargar el código `esp_2motores.py` en el ESP32
-2. Ejecutar `Interfaz_Control_2motores.py` en la computadora para controlar el dron
+### Control de 2 motores (Pruebas/Prototipo)
+1. Cargar el código `Codigo_ESP32/esp_2motores.py` en el ESP32.
+2. Ejecutar `Interfaz_PC/Interfaz_Control_2motores.py` en la computadora para controlar el prototipo.
+
+### Control de 4 motores (Completo)
+1. Ejecutar `Interfaz_PC/ControlDRONE_4motores.py` en la computadora (Nota: requerirás el código de ESP32 para 4 motores cargado en tu dron).
 
 ## Estructura del Proyecto
 
-```
+```text
 Proyecto Dron/
-├── Interfaz_Dron/          # Código principal de control
-├── lecturaMPU/             # Scripts para lectura del sensor MPU6050
-├── Simple PID/             # Implementación de control PID
-├── Codigos1.0/             # Versiones anteriores del código
-└── MPU6050 python/         # Utilidades para MPU6050
+├── Codigo_ESP32/           # Código principal para la tarjeta ESP32 (MicroPython)
+├── Interfaz_PC/            # Scripts con interfaz gráfica de Python para controlar el dron vía WiFi
+├── Piezas/                 # Modelos 3D y piezas mecánicas (archivos STEP, etc.)
+└── Esquematico_PDB/        # Esquemas de la placa de distribución de energía (Power Distribution Board)
 ```
 
 ## Notas
 
-Este proyecto es parte del curso de Control Clásico.
+Este proyecto es parte del curso de Control Clásico. Se han organizado los códigos en carpetas separadas para distinguir entre el código del ESP32 y el código de la PC.
