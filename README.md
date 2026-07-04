@@ -1,10 +1,10 @@
 # Proyecto Dron - Control Clásico (Alabeo)
 
+![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Platform-ESP32%20%7C%20Python-blue?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+
 <div align="center">
-  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" alt="Status" />
-  <img src="https://img.shields.io/badge/Platform-ESP32%20%7C%20Python-blue?style=for-the-badge" alt="Platform" />
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License" />
-  <br/><br/>
   <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white" alt="ESP32" />
   <img src="https://img.shields.io/badge/MicroPython-2B2E33?style=flat-square&logo=python&logoColor=white" alt="MicroPython" />
   <img src="https://img.shields.io/badge/MPU6050%20Sensor-F39C12?style=flat-square" alt="MPU6050" />
@@ -14,8 +14,13 @@
   <img src="https://img.shields.io/badge/WiFi%20Telemetry-8E44AD?style=flat-square&logo=wifi&logoColor=white" alt="WiFi" />
 </div>
 
-![Prueba de Alabeo](layout/video-prueba-alabeo.gif)
-![Interfaz de Control](layout/imagen-prueba-interfaz.jpeg)
+<br/>
+
+<div align="center">
+  <img src="layout/video-prueba-alabeo.gif" width="45%" alt="Prueba de Alabeo" />
+  &nbsp;&nbsp;
+  <img src="layout/imagen-prueba-interfaz.jpeg" width="45%" alt="Interfaz de Control" />
+</div>
 
 Este proyecto contiene el código para el control de un dron utilizando ESP32 y sensores MPU6050.
 
